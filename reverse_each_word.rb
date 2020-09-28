@@ -8,3 +8,11 @@ def reverse_each_word(string)
     strings.join(" ")
     # binding.pry
 end
+
+
+def reverse_each_word(string)
+  string.split.collect do |word|
+    word.reverse
+  end
+  
+end
