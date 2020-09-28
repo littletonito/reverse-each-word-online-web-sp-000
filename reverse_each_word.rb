@@ -13,7 +13,7 @@ end
 def reverse_each_word(string)
   strings = []
   string.split.collect do |word|
-  strings  << "#{word.reverse}"
+  strings  << word.reverse
   end
   strings.join(" ")
 end
